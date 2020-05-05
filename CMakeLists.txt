@@ -11,8 +11,8 @@ set (EXE_NAME Search)
 #   set (input02 "train_target.csv")
 # etc....
 
-set (input01 "controlfile.txt")
-set (input02 "input.txt")
+#set (input01 "controlfile.txt")
+#set (input02 "input.txt")
 #set (input03 "")
 #set (input04 "")
 
@@ -20,7 +20,7 @@ set (input02 "input.txt")
 ##########################################
 
 # Copy data files to build dir
-foreach(file IN LISTS input01 input02) #input02 input03 input04#
+foreach(file IN LISTS ) #input02 input03 input04#
     configure_file(${file} ${file} COPYONLY)
 endforeach()
 
