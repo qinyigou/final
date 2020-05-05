@@ -1,7 +1,7 @@
 # Final Project
-In this program, #define NUM_SIZE (10) controls the size of a matrix. 10 means the size of a matrix is from 2 x 2 to 2^10 x 2^10. When I test the program, I use NUM_SIZE (11) to get more comparable results.
+In this program, #define NUM_SIZE (10) controls the size of a matrix. 10 means the size of a matrix is from 2 x 2 to 2^10 x 2^10. When I test the program, I use NUM_SIZE (11) to get more comparable results.<br />
 
-Compare standard with sparse matrix multiplication on sparse matrix_
+Compare standard with sparse matrix multiplication on sparse matrix<br />
 n =    2, standard = 0.00, sparse = 0.00
 n =    4, standard = 0.00, sparse = 0.00
 n =    8, standard = 0.00, sparse = 0.00
